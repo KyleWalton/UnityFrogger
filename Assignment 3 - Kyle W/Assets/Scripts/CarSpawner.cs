@@ -8,8 +8,6 @@ public class CarSpawner : MonoBehaviour
 
     private float nextTimeToSpawn = 0f;
 
-    //private float despawnTimer = Time.deltaTime;
-
     public GameObject car;
 
     public Transform[] spawnPoints;
@@ -26,7 +24,7 @@ public class CarSpawner : MonoBehaviour
     //Look up Destroying Object after certain amount of time passes.
     //private void Start()
     //{
-    //    Destroy(car, 5);
+    //    Destroy(DCar, 5);
     //}
 
     void Update()

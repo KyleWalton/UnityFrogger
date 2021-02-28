@@ -16,9 +16,12 @@ public class MainMenu : MonoBehaviour
 
         //For use inside Unity Engine
         UnityEditor.EditorApplication.isPlaying = false;
+
+        Data.Instance.score = 0;
     }
     public void GOMainMenu()
     {
         SceneManager.LoadScene((0));
+        Data.Instance.score = 0;
     }
 }

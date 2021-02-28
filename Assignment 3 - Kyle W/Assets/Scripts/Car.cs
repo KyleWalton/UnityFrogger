@@ -12,6 +12,7 @@ public class Car : MonoBehaviour
     private void Start()
     {
         speed = Random.Range(minSpeed, maxSpeed);
+        Destroy(gameObject, 3);
     }
 
     //FixedUpdate is meant for physics, while Update is meant for everything else.

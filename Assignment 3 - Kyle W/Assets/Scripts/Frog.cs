@@ -31,9 +31,16 @@ public class Frog : MonoBehaviour
         if (col.tag == "Car")
         {
             Debug.Log("WE LOST!");
-            //Score.CurrentScore = 0;
+            if (Data.Instance.playerLives > 0)
+            {
+                Data.Instance.playerLives--;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                SceneManager.LoadScene("GameOver");
+            }
             
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

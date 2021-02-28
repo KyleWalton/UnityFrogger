@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{92101CE4-AA98-8995-F686-1194FE7FA042}</ProjectGuid>
+    <ProjectGuid>{82682F4D-E854-D854-6A1D-E022BE8973C0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,12 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CarSpawner.cs" />
-    <Compile Include="Assets\Scripts\Frog.cs" />
-    <Compile Include="Assets\Score.cs" />
-    <Compile Include="Assets\Goal.cs" />
-    <Compile Include="Assets\Scripts\Car.cs" />
-    <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\Data.cs" />
+    <Compile Include="Assets\Scripts\DataAccessor.cs" />
+    <Compile Include="Assets\Scripts\MovementBoundaries.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Frog.cs" />
+    <Compile Include="Assets\Scripts\DataStorage.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Scripts\Goal.cs" />
+    <Compile Include="Assets\Scripts\Car.cs" />
+    <Compile Include="Assets\Scripts\Save.cs" />
+    <Compile Include="Assets\Scripts\Game.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
